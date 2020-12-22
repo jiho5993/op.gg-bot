@@ -4,7 +4,7 @@ from Summoner import Summoner
 from bs4 import BeautifulSoup
 from pprint import pprint
 
-TOKEN = '1339440117:AAHJ_5KT5xeSsiVxUB98tnrSPmk1jvwDihs'
+TOKEN = ''
 
 def get_user_info(summoner_name):
     url = 'https://www.op.gg/summoner/userName={}'.format(summoner_name)
